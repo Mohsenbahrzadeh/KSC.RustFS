@@ -416,3 +416,8 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+rustfs-data/.rustfs.sys/config/tier-config.json/39705fb7-5844-4a8b-8056-09d3bb95059c/part.1
+rustfs-data/.rustfs.sys/datausage/e0cdf3ab-0c4b-4d22-be74-62447718b601.json
+rustfs-data/.rustfs.sys/datausage/state/e0cdf3ab-0c4b-4d22-be74-62447718b601.json
+rustfs-data/.rustfs.sys/pool.bin/d8820bf0-9890-403b-ac07-a9fc86638371/part.1
+rustfs-data/.rustfs.sys/format.json

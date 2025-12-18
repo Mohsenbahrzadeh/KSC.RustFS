@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36429.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KSC.RustFS.WebApi", "src\KSC.RustFS.WebApi\KSC.RustFS.WebApi.csproj", "{FDA88F3A-B5CF-4230-8582-93583603BAFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDA88F3A-B5CF-4230-8582-93583603BAFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA88F3A-B5CF-4230-8582-93583603BAFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA88F3A-B5CF-4230-8582-93583603BAFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA88F3A-B5CF-4230-8582-93583603BAFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FDA88F3A-B5CF-4230-8582-93583603BAFD} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E85ABB9D-757B-4A03-84B0-6BEF36F4C99A}
+	EndGlobalSection
+EndGlobal

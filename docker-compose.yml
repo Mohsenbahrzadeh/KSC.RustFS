@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  rustfs-server:
+    image: rustfs/rustfs:latest
+    container_name: rustfs-server
+    ports:
+      - "9000:9000"   # S3 API endpoint (برای کد .NET شما)
+      - "9001:9001"   # Web Console / UI
+    volumes:
+      - ./rustfs-data:/data  # ذخیره فایل‌ها
+    environment:
+      - RUSTFS_CONSOLE_ENABLE=true          # فعال کردن UI (مهم!)
+      - RUSTFS_ACCESS_KEY=rustfsadmin       # یا مقدار دلخواه قوی‌تر
+      - RUSTFS_SECRET_KEY=rustfsadmin       # حتماً در تولید تغییر دهید!
+      - RUSTFS_ADDRESS=0.0.0.0:9000         # bind API به همه اینترفیس‌ها
+      - RUSTFS_CONSOLE_ADDRESS=0.0.0.0:9001 # bind کنسول
+    restart: unless-stopped
